@@ -95,33 +95,13 @@ This project uses many of the popular libraries, plugins and tools of the androi
 
 
 
-
-1. Open an issue first to discuss what you would like to change.
-2. Fork the Project
-3. Create your feature branch (`git checkout -b feature/amazing-feature`)
-4. Commit your changes (`git commit -m 'Add some amazing feature'`)
-5. Push to the branch (`git push origin feature/amazing-feature`)
-6. Open a pull request
-
 Please make sure to update tests as appropriate.
 
-## ✍️ Authors
-
-<a href="https://www.linkedin.com/in/mesut-g-33b41030" target="_blank">
-  <img src="https://avatars.githubusercontent.com/u/30066734?v=4" width="70" align="left">
-</a>
-
-👤 **developersancho**
-
-[![Linkedin](https://img.shields.io/badge/-linkedin-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mesut-g-33b41030/)
-[![Medium](https://img.shields.io/badge/-medium-12100E?style=for-the-badge&logo=medium)](https://developersancho.medium.com/)
-
-Feel free to ping me 😉
 
 ## License
 
 ```license
-Copyright © 2022 - developersancho
+Copyright © 2022 - maquincher
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
