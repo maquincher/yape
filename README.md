@@ -59,7 +59,7 @@ Implementado con Android Studio Electric Eel 2022.1.1
 
 
 # Tech Stacks
-This project uses many of the popular libraries, plugins and tools of the android ecosystem.
+Este proyecto utiliza muchas de las bibliotecas, complementos y herramientas populares del ecosistema de Android.
 
 - [Compose](https://developer.android.com/jetpack/compose)  
     - [Material](https://developer.android.com/jetpack/androidx/releases/compose-material) - Construccion de interfaces de usuario de Jetpack Compose con componentes de Material Design listos para usar.
@@ -73,7 +73,7 @@ This project uses many of the popular libraries, plugins and tools of the androi
     - [Lifecycle](https://developer.android.com/topic/libraries/architecture/lifecycle) - El paquete androidx.lifecycle incluye interfaces y clases que te permiten compilar componentes optimizados para ciclos de vida; es decir, componentes que pueden ajustar automáticamente su comportamiento en función del estado actual del ciclo de vida de una actividad o un fragmento.
     - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - La clase ViewModel es una lógica empresarial o un contenedor de estado a nivel de pantalla.    
 
-- [Dagger Hilt](https://dagger.dev/hilt/) - Dependency Injection library.  
+- [Dagger Hilt](https://dagger.dev/hilt/) - Libreria de Injeccion de dependencias.  
 - [Retrofit](https://square.github.io/retrofit/) - Retrofit es la clase a través de la cual sus interfaces API se convierten en objetos invocables. De forma predeterminada, Retrofit le proporcionará valores predeterminados optimos para su plataforma, pero permite la personalización.
 - [Material Design](https://material.io/develop/android/docs/getting-started/) - Cree increíbles interfaces de usuario hermosas.
 - [Coroutines](https://github.com/Kotlin/kotlinx.coroutines) - Compatibilidad con la biblioteca para corrutinas, proporciona el generador de corrutinas runBlocking utilizado en las pruebas.
@@ -94,8 +94,6 @@ This project uses many of the popular libraries, plugins and tools of the androi
 - [Ktlint](https://developer.android.com/studio/write/lint?hl=es-419) - ALa herramienta lint comprueba los archivos de origen de tu proyecto de Android en busca de posibles errores y para realizar mejoras relacionadas con la precisión, la seguridad, el rendimiento, la usabilidad, la accesibilidad y la internacionalización
 
 
-
-Please make sure to update tests as appropriate.
 
 
 ## License
