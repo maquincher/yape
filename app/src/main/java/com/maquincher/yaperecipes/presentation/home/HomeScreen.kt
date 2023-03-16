@@ -37,8 +37,6 @@ class HomePage @Inject constructor(
         navController: NavController,
         modifier: Modifier = Modifier
     ) {
-
-
         val homeViewModel = hiltViewModel<HomeViewModel>()
         val filter: String by homeViewModel.filter.observeAsState(initial = "")
         val recipes: List<Recipe> by homeViewModel.recipe.observeAsState(initial = emptyList())

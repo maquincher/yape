@@ -33,9 +33,9 @@ fun mapRecipe( modifier: Modifier = Modifier) {
             )
 
             val latLng = detailsRecipeViewModel.latLng
-            val singapore = LatLng(latLng.value?.lat?.toDouble()!!, latLng.value?.lng?.toDouble()!!)
+            val currentRecipe = LatLng(latLng.value?.lat?.toDouble()!!, latLng.value?.lng?.toDouble()!!)
             val cameraPositionState = rememberCameraPositionState {
-                position = CameraPosition.fromLatLngZoom(singapore, 15f)
+                position = CameraPosition.fromLatLngZoom(currentRecipe, 15f)
             }
 
             GoogleMap(
@@ -45,9 +45,9 @@ fun mapRecipe( modifier: Modifier = Modifier) {
             ) {
 
                 Marker(
-                    state = MarkerState(position = singapore),
+                    state = MarkerState(position = currentRecipe),
                     title = detailsRecipeViewModel.recipe.value?.name,
-                    snippet = detailsRecipeViewModel.recipe.value?.description + "\nsdsds",
+                    snippet = detailsRecipeViewModel.recipe.value?.description ,
                 )
             }
         }

@@ -27,7 +27,9 @@ android {
         }
     }
     buildFeatures {
+        //buildCache true
         compose true
+        dataBinding true
     }
     composeOptions {
         kotlinCompilerExtensionVersion '1.4.2'
@@ -65,6 +67,10 @@ dependencies {
     implementation "androidx.hilt:hilt-navigation-compose:1.0.0"
     kapt "com.google.dagger:hilt-compiler:2.44"
 
+    //Corrutinas
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'
+    testImplementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.4'
+
     //image async
     implementation("io.coil-kt:coil-compose:2.2.2")
 
@@ -85,6 +91,15 @@ dependencies {
     implementation 'com.google.maps.android:maps-ktx:3.2.1'
     // KTX for the Maps SDK for Android Utility Library
     implementation 'com.google.maps.android:maps-utils-ktx:3.2.1'
+
+    //test mockito
+    testImplementation 'io.mockk:mockk:1.12.3'
+    androidTestImplementation 'io.mockk:mockk-android:1.12.3'
+
+    androidTestImplementation 'androidx.arch.core:core-testing:2.2.0'
+
+//    debugImplementation("androidx.compose.ui:ui-test-manifest:$compose_version")
+
 
 
 

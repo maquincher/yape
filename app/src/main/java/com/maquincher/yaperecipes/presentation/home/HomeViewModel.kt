@@ -37,7 +37,6 @@ class HomeViewModel @Inject constructor(
     }
 
     fun onClickRecipe(recipe: Recipe, navController:NavController) {
-        //_recipeId.value = recipeId
         navController.navigate(AppScreens.detailsRecipeScreen.route + "/${recipe.id}" )
     }
 
@@ -50,10 +49,9 @@ class HomeViewModel @Inject constructor(
             try {
                 recipesServices.getRecipes(search).let {
                     _recipe.value = it
-                    println("---------------  $it -----")
+
                 }
             } catch (e: Exception) {
-                println("---------------  $e -----")
                 _recipe.value = emptyList()
             }
         }

@@ -1,11 +1,11 @@
 package com.maquincher.yaperecipes.recipes
 
 import com.maquincher.yaperecipes.models.Recipe
-import com.maquincher.yaperecipes.presentation.data.recipesData
+import com.maquincher.yaperecipes.data.recipesData
 import javax.inject.Inject
 
 
-class RecipesApiLocal @Inject constructor() : RecipesApi {
+open class RecipesApiLocal @Inject constructor() : RecipesApi {
     override suspend fun getRecipes(search: String?): List<Recipe> = run {
         recipesData.filter { recipe ->
             try {

@@ -1,4 +1,4 @@
-package com.maquincher.yaperecipes.presentation.home
+package com.maquincher.yaperecipes.datasource
 
 import com.maquincher.yaperecipes.recipes.RecipesApi
 import dagger.Module

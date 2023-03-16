@@ -82,17 +82,18 @@ Este proyecto utiliza muchas de las bibliotecas, complementos y herramientas pop
   
 - [Test](https://en.wikipedia.org/wiki/Unit_testing)
 
-    - [Robolectric](http://robolectric.org/) - Running tests on an Android emulator or device is slow! Building, deploying, and launching the app often takes a minute or more. That’s no way to do TDD. There must be a better way.
-    - [Mockk](https://mockk.io/) - A modern Mockk library for UnitTest.
-    - [Turbine](https://github.com/cashapp/turbine) - Turbine is a small testing library for kotlinx.coroutines Flow.
-    - [Truth](https://github.com/google/truth) - Truth makes your test assertions and failure messages more readable.
-    - [Coroutine-Test](https://github.com/Kotlin/kotlinx.coroutines/tree/master/kotlinx-coroutines-test) - Provides testing utilities for effectively testing coroutines.
+    - [Mockk](https://mockk.io/) - A modern Mockk library for UnitTest.    
+    - [Junit](https://developer.android.com/training/testing/instrumented-tests/androidx-test-libraries/runner) - El ejecutor de pruebas se encarga de cargar su paquete de prueba y la aplicación bajo prueba en un dispositivo, ejecutar sus pruebas e informar los resultados de las pruebas.
+    - [Androidx.arch](https://developer.android.com/jetpack/androidx/releases/arch-core?hl=es-419) - Asistente para otras dependencias de arquitectura, incluidas las reglas de prueba JUnit que se pueden usar con LiveData..
     - ...
 
 
 ### Code Analyze Tools
-- [Ktlint](https://developer.android.com/studio/write/lint?hl=es-419) - ALa herramienta lint comprueba los archivos de origen de tu proyecto de Android en busca de posibles errores y para realizar mejoras relacionadas con la precisión, la seguridad, el rendimiento, la usabilidad, la accesibilidad y la internacionalización
+- [Ktlint](https://developer.android.com/studio/write/lint?hl=es-419) - La herramienta lint comprueba los archivos de origen de tu proyecto de Android en busca de posibles errores y para realizar mejoras relacionadas con la precisión, la seguridad, el rendimiento, la usabilidad, la accesibilidad y la internacionalización
 
+### Novedades
+- [Pipedream] (https://pipedream.com/) - Pipedream es la forma más rápida de automatizar cualquier proceso que conecte API. Cree y ejecute flujos de trabajo con control de nivel de código cuando lo necesite y sin código cuando no lo necesite.
+- La aplicacion tiene un sistema de resilencia antes la desconexion de datos, se tiene por el momento una clase donde maneja las recetas en caso que no api de consulta no responda.
 
 
 

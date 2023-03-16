@@ -12,5 +12,12 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+
+buildCache {
+    local {
+        directory = new File(rootDir, 'build-cache')
+        removeUnusedEntriesAfterDays = 30
+    }
+}
 rootProject.name = "YapeRecipes"
 include ':app'
