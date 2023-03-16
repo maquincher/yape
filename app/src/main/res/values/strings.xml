@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">YapeRecipes</string>
+    <string name="recipes">Recetas</string>
+    <string name="ingredients">Ingredientes</string>
+</resources>

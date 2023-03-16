@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "747043043882",
+    "project_id": "challenges-5a7a6",
+    "storage_bucket": "challenges-5a7a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747043043882:android:8c1527a95cc7151006e153",
+        "android_client_info": {
+          "package_name": "com.maquincher.yaperecipes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747043043882-lu9371nijjgoigeaej5d6po87tu8fhqe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maquincher.yaperecipes",
+            "certificate_hash": "91e6b1927d593101381518f72ba7476de984434a"
+          }
+        },
+        {
+          "client_id": "747043043882-dm73ir7l7dcd10cvm4sm6saibecr6k7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUvFbGuH5ogN0HToiw4xsoq6W-xJYvhXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747043043882-dm73ir7l7dcd10cvm4sm6saibecr6k7r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
